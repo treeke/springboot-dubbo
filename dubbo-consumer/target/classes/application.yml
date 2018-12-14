@@ -1,0 +1,16 @@
+server: 
+    port: 8100
+    
+spring: 
+    application: 
+        name: dubbo-consumer
+
+dubbo: 
+    application:
+        name: dubbo-consumer
+    protocol:
+        name: dubbo
+        port: 20880
+    registry: 
+        address: zookeeper://192.168.58.100:2181
+    
